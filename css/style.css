@@ -1,0 +1,240 @@
+body {
+    background-color: rgb(212, 238, 241);
+}
+
+.main-container {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.question-menu {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    vertical-align: middle;
+}
+
+.question-menu .btn-info {
+    margin-right: 15px;
+}
+
+.question-tags {
+    display: inline;
+    vertical-align: middle;
+}
+
+tag1, tag2, tag3, tag4, tag5, tag6, tag7, tag8 {
+    padding-right: 8px;
+}
+
+tag5, tag7 {
+    color: rgb(56, 176, 79);
+    font-size: 18px;
+}
+
+tag2 {
+    font-size: 20px;
+}
+
+tag6 {
+    color: rgb(175, 108, 39);
+}
+
+.best-members ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.best-members li a {
+    font-size: 20px;
+    padding-left: 0px;
+    text-decoration: none;
+}
+
+.question-tags ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.question-tags li {
+    display: inline-block;
+}
+
+.question-tags li a {
+    display: block;
+    text-align: center;
+    padding-right: 7px;
+    padding-left: 7px;
+    text-decoration: none;
+}
+
+.nick {
+    padding-top: 5px;
+    font-size: 20px;
+    color: #9d9d9d;
+}
+
+.auth_setting {
+    color: #9d9d9d;
+}
+
+.auth_setting a {
+    font-size: 17px;
+    margin-right: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.auth-menu {
+    margin-right: 15px;
+    margin-left: 15px;
+    float: right;
+}
+
+.question {
+    border: solid 1px black;
+    /*padding: 10px;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-height: 100px;
+}
+
+.quest-name {
+    font-size: 22px;
+}
+
+.navbar-brand, .navbar-nav li a .ask {
+    line-height: 75px;
+    height: 75px;
+    padding-top: 0;
+    /*vertical-align: middle;*/
+}
+
+
+/*nav .navbar-form {
+  line-height: 75px;
+  height: 75px;
+  padding-top: 0;
+}*/
+
+.navbar-brand {
+    padding-top: 0px;
+    font-size: 40px;
+    /*color:  rgb(255, 255, 255)*/
+}
+
+
+/*.hot
+{
+  color: rgb(240, 4, 15);
+}*/
+
+.header {
+    font-size: 40px;
+    padding-right: 15px;
+}
+
+.hot {
+    color: rgb(177, 16, 23);
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.hot:hover {
+    color: rgb(226, 29, 38);
+}
+
+.navbar-search {
+    padding-top: 20px;
+}
+
+.navbar-header {
+    /*padding-left: 20px;*/
+}
+
+.toolbar-pag {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.text-input {
+    resize: vertical;
+    ;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.ask-button {
+    float: right;
+    margin-top: 13px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.question-likes {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    /*border: solid 2px black;*/
+}
+
+.question-likes .label, .btn {
+    font-size: 13px;
+}
+
+.question-likes .btn {
+    height: 25px;
+}
+
+.question-likes-elem {
+    height: 15px;
+}
+
+.avatar {
+    float: right;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 5px;
+    padding: 0px;
+    width: 65px;
+    height: 65px;
+    background-image: url(img/no_ava.jpg);
+    background-size: 65px 65px;
+    /*background-color: rgb(111, 182, 189);*/
+}
+
+.answer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.left {
+    float: left;
+}
+
+.big-checkbox {
+    width: 30px;
+    height: 30px;
+}
+
+.big-checkbox-text {
+    padding-left: 20px;
+    padding-top: 7px;
+    display: inline-block;
+}
+
+.avatar-question {
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    padding: 0px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/no_ava.jpg);
+    background-size: 100px 100px;
+    /*background-color: rgb(111, 182, 189);*/
+}
